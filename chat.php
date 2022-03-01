@@ -11,5 +11,6 @@ class chat {
         $file =file_get_contents('tsconfig.json');
         $json=json_decode($file,JSON_UNESCAPED_UNICODE);
         return $file;
+        echo "hghghghghg";
   }
 }
